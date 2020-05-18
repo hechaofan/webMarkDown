@@ -1,0 +1,91 @@
+
+
+
+打包报告
+图形可视化 vue ui
+在cmd中 vue ui
+
+
+A.命令行形式生成打包报告
+
+vue-cli-service build --report
+
+B.在vue控制台生成打包报告
+
+点击“任务”=>“build”=>“运行”
+
+运行完毕之后点击右侧“分析”，“控制台”面板查看报告
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1下载vue-cli2
+npm install -g vue-cli : 全局下载工具
+vue init webpack App :下载基于webpack模板项目
+cd App
+npm install : 下载项目依赖的所有模块
+npm run dev
+
+下载vuecli指定版本
+npm install -g @vue/cli
+vue create my-project
+cd my-project
+npm install : 下载项目依赖的所有模块
+npm run serve
+
+
+2打包发布
+npm run build
+npm install -g pushstate-server
+pushstate-server dist
+访问: http://localhost:9000
+
+3安装stylus依赖包
+
+npm install stylus stylus-loader --save-dev
+编写样式
+<style lang="stylus" rel="stylesheet/stylus">
+
+</style>
+
+
+4ESLint
+ 相关配置文件
+.eslintrc.js : 规则相关配置文件, 可以在此修改规则
+.eslintignore: 指令检查忽略的文件,　可以在此添加想忽略的文件  *.js  *.vue
+
+
+5reset.css
+在static下  在index.html  下引入
+
+
+6vue-router
+npm install vue-router --save
+
+7npm i vue-scroller -S
+import VueScroller from 'vue-scroller'
+Vue.use(VueScroller)
+
+8mint-ui
+npm i mint-ui -S
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+Vue.use(MintUI)

@@ -1,0 +1,4 @@
+在cmd中打开 如果下载了http-server则直接开启服务
+1找到文件位置 C:\Users\何超凡\Desktop\赵海平的网课资料\自己的笔记\阶段1：框架原理与进阶\typeScript\01-教学资料\笔记
+在cmd中开启服务 http-server C:\Users\何超凡\Desktop\赵海平的网课资料\自己的笔记\阶段1：框架原理与进阶\typeScript\01-教学资料\笔记
+在浏览器中打开 http://127.0.0.1:8081/typescript/index.html

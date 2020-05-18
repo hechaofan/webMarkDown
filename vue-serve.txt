@@ -1,0 +1,10 @@
+npm init -y
+npm i express -S
+node .\app.js
+http://192.168.100.158:8080/#/serviceHomepage
+
+npm i live-server -D
+在package.json中配置
+"scripts": {
+    "start": "live-server ./dist"
+  },
